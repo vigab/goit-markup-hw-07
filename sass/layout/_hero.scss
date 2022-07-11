@@ -1,0 +1,18 @@
+.hero {
+    background-color: var(--background-dark);
+    text-align: center;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background.jpg);
+    background-size: cover;
+
+&__text {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.36em;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+}
+

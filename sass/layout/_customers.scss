@@ -1,0 +1,28 @@
+.customers {
+
+    &__list {
+    display: flex;
+    justify-content: center;
+    }
+
+    &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    fill: var(--social-icon-color);
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    margin-right: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+        border-color: var(--main-accent-color);
+        fill: var(--main-accent-color);
+        }
+    }
+
+}
