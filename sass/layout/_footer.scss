@@ -1,12 +1,9 @@
 .footer {
     height: 252px;
-
-    &--background {
     background-color: var(--background-dark-color);
     padding: 60px 0;
-    }
 
-    &--flex {
+    &__container {
     display: flex;
     align-items: baseline;
     }
@@ -15,20 +12,8 @@
     margin-right: 70px;
     }
     
-    &__studio,
-    &__web {
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19em
-    }
-
-    &__web {
-    color: var(--main-accent-color);
-    }
-
-    &__studio {
-    color: white;
+    .logo__part2--color-white {
+        color: #ffffff;
     }
 
     &__address {

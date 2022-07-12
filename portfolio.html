@@ -29,7 +29,7 @@
               <h2 class="logo__part1">Web<span class="logo__part2">Studio</span></h2>
             </a>
             <nav>
-              <ul class="nav section__list">
+              <ul class="nav__list">
                 <li class="nav__item">
                   <a class="nav__link link" href="index.html">Agencja</a>
                 </li>
@@ -62,44 +62,42 @@
       </div>
     </header>
     <main>
-      <!-- Section Portfolio Buttons -->
+      <!--Portfolio Buttons -->
       <section class="portfolio-buttons section">
         <div class="container">
           <ul class="portfolio-buttons__list">
             <li class="portfolio-buttons__item">
-              <button type="button" class="button--portfolio">
+              <button type="button" class="button__portfolio">
                 <span class="portfolio-buttons__text">Wszystkie</span>
               </button>
             </li>
             <li class="portfolio-buttons__item">
-              <button type="button" class="button--portfolio">
+              <button type="button" class="button__portfolio">
                 <span class="portfolio-buttons__text">Strony</span>
               </button>
             </li>
             <li class="portfolio-buttons__item">
-              <button type="button" class="button--portfolio">
+              <button type="button" class="button__portfolio">
                 <span class="portfolio-buttons__text">Aplikacje</span>
               </button>
             </li>
             <li class="portfolio-buttons__item">
-              <button type="button" class="button--portfolio">
+              <button type="button" class="button__portfolio">
                 <span class="portfolio-buttons__text">Dizajn</span>
               </button>
             </li>
             <li class="portfolio-buttons__item">
-              <button type="button" class="button--portfolio">
+              <button type="button" class="button__portfolio">
                 <span class="portfolio-buttons__text">Marketing</span>
               </button>
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Section Portfolio Projects -->
-      <section class="portfolio-projects portfolio-projects--padding-top section"> 
-        <div class="container">
+      <!--Portfolio Projects -->
+        <div class="container portfolio-projects">
           <ul class="portfolio-projects__list">
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/technocrack.jpg"
@@ -122,7 +120,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/grafika-new-orlean.jpg"
@@ -147,7 +145,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/restauracja-apka.jpg"
@@ -170,7 +168,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/projekt-prime.jpg"
@@ -193,7 +191,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/projekt-boxes.jpg"
@@ -216,7 +214,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/isnpiration.jpg"
@@ -239,7 +237,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/magazyn.jpg"
@@ -262,7 +260,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/projekt-lab.jpg"
@@ -285,7 +283,7 @@
               </figure>
             </li>
             <li class="portfolio-projects__item">
-              <div class="portfolio-projects__item--container">
+              <div>
               <figure class="portfolio-projects__image">
                 <img
                   src="./images/growing.jpg"
@@ -312,12 +310,14 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer footer--background">
-      <div class="container">
-        <div class="footer--flex">
+    <footer class="footer">
+      <div class="container footer__container">
         <div class="footer__left-side">
-        <a class="footer__webstudio" href="https://vigab.github.io/goit-markup-hw-03/">
-          <h2 class="footer__web">Web<span class="footer__studio">Studio</span></h2>
+          <a
+          class="logo link"
+          href="https://vigab.github.io/goit-markup-hw-07/"
+        >
+          <h2 class="logo__part1">Web<span class="logo__part2--color-white">Studio</span></h2>
         </a>
         <address>
           <ul>
@@ -375,8 +375,7 @@
             <div class="newsletter__form">
               <label class="newsletter__label" for="newsletter-mail"></label>
               <input class="newsletter__input" type="email" name="newsletter-mail" id="newsletter-mail" placeholder="E-mail" required="required">
-              <button class="button button--newsletter" type="submit">Zapisz się</button>
-        </div>
+              <button class="button button__newsletter" type="submit">Zapisz się</button>
         </div>
         </div>
       </div>

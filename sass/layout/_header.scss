@@ -32,11 +32,14 @@
 
 
 .nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    align-items: center;
-    display: flex;
+
+        &__list {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        align-items: center;
+        display: flex;
+        }
 
         &__link {
         margin-right: 46px;

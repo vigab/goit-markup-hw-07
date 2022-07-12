@@ -1,5 +1,27 @@
-.portfolio-projects--padding-top {
-    padding-top: 0px;
+.portfolio-buttons {
+
+    &__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    padding-bottom: 50px;
+    }
+
+    &__item {
+    margin-left: 8px;
+    }
+
+    &__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62em;
+    color: var(--dark-text-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
 }
 
 .portfolio-projects {

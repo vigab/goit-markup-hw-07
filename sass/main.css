@@ -56,7 +56,7 @@ ul {
   pointer-events: none;
 }
 
-.section-title {
+.section__title {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -76,18 +76,18 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.06em;
 }
-.button--hero {
+.button__hero {
   background-color: var(--main-accent-color);
   border: 0px;
   color: white;
   line-height: 1.875em;
   padding: 10px 42px;
 }
-.button--hero:hover, .button--hero:focus {
+.button__hero:hover, .button__hero:focus {
   background-color: rgba(33, 150, 243, 0.8);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button--newsletter {
+.button__newsletter {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -102,11 +102,11 @@ ul {
   width: 200px;
   height: 50px;
 }
-.button--newsletter:focus, .button--newsletter:hover {
+.button__newsletter:focus, .button__newsletter:hover {
   background-color: rgba(33, 150, 243, 0.8);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button--newsletter::after {
+.button__newsletter::after {
   content: "";
   display: inline-block;
   width: 24px;
@@ -115,7 +115,7 @@ ul {
   background-image: url(../images/newsletter-button.svg);
   margin-left: 20px;
 }
-.button--form {
+.button__form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,10 +130,10 @@ ul {
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button--form:hover, .button--form:focus {
+.button__form:hover, .button__form:focus {
   background-color: rgba(33, 150, 243, 0.8);
 }
-.button--portfolio {
+.button__portfolio {
   background-color: var(--button-portfolio-color);
   cursor: pointer;
   border: 0px;
@@ -141,11 +141,11 @@ ul {
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button--portfolio:hover, .button--portfolio:focus {
+.button__portfolio:hover, .button__portfolio:focus {
   background-color: var(--main-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button--portfolio:hover > span, .button--portfolio:focus > span {
+.button__portfolio:hover > span, .button__portfolio:focus > span {
   color: white;
 }
 
@@ -197,7 +197,7 @@ ul {
   color: black;
 }
 
-.nav {
+.nav__list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -280,7 +280,7 @@ ul {
   margin: 0 auto 30px;
 }
 
-.assets--padding-bottom {
+.assets {
   padding-bottom: 0px;
 }
 .assets__list {
@@ -345,7 +345,7 @@ ul {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.team--background-color {
+.team {
   background-color: var(--background-light-color);
 }
 .team__list {
@@ -425,29 +425,18 @@ ul {
 
 .footer {
   height: 252px;
-}
-.footer--background {
   background-color: var(--background-dark-color);
   padding: 60px 0;
 }
-.footer--flex {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 .footer__left-side {
   margin-right: 70px;
 }
-.footer__studio, .footer__web {
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19em;
-}
-.footer__web {
-  color: var(--main-accent-color);
-}
-.footer__studio {
-  color: white;
+.footer .logo__part2--color-white {
+  color: #ffffff;
 }
 .footer__address {
   color: white;
@@ -680,9 +669,6 @@ ul {
   color: rgb(33, 150, 243);
 }
 
-.portfolio-buttons {
-  padding-bottom: 0px;
-}
 .portfolio-buttons__list {
   display: flex;
   justify-content: center;
@@ -702,10 +688,6 @@ ul {
   color: var(--dark-text-color);
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.portfolio-projects--padding-top {
-  padding-top: 0px;
 }
 
 .portfolio-projects__list {

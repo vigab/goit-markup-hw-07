@@ -29,7 +29,7 @@
               <h2 class="logo__part1">Web<span class="logo__part2">Studio</span></h2>
             </a>
             <nav>
-              <ul class="nav section__list">
+              <ul class="nav__list">
                 <li class="nav__item">
                   <a class="nav__link nav__link--acitvepage link" href="index.html">Agencja</a>
                 </li>
@@ -66,12 +66,12 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="button--hero button" data-modal-open>Zamów usługę
+          <button type="button" class="button__hero button" data-modal-open>Zamów usługę
           </button>
         </div>
       </section>
       <!-- Section Info -->
-      <section class="section assets--padding-bottom">
+      <section class="section assets">
         <div class="container">
           <ul class="assets__list">
             <li class="assets__item">
@@ -128,7 +128,7 @@
       <!-- Section we do -->
       <section class="section we-do">
         <div class="container">
-          <h2 class="section-title">Czym się zajmujemy</h2>
+          <h2 class="section__title">Czym się zajmujemy</h2>
           <ul class="we-do__list">
             <li class="we-do__item">
               <img
@@ -161,9 +161,9 @@
         </div>
       </section>
       <!-- Section Our Team-->
-      <section class="team team--background-color section">
+      <section class="team section">
         <div class="container">
-          <h2 class="section-title">Nasz zespół</h2>
+          <h2 class="section__title">Nasz zespół</h2>
           <ul class="team__list">
             <li class="team__item">
               <figure class="team__image">
@@ -379,7 +379,7 @@
       <!-- Section Our Clients-->
       <section class="customers section">
         <div class="container">
-          <h2 class="section-title">Nasi klienci</h2>
+          <h2 class="section__title">Nasi klienci</h2>
           <ul class="customers__list">
             <li>
               <a class="customers__item">
@@ -428,12 +428,14 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer footer--background">
-      <div class="container">
-        <div class="footer--flex">
+    <footer class="footer">
+      <div class="container footer__container">
         <div class="footer__left-side">
-        <a class="footer__webstudio" href="https://vigab.github.io/goit-markup-hw-03/">
-          <h2 class="footer__web">Web<span class="footer__studio">Studio</span></h2>
+          <a
+          class="logo link"
+          href="https://vigab.github.io/goit-markup-hw-07/"
+        >
+          <h2 class="logo__part1">Web<span class="logo__part2--color-white">Studio</span></h2>
         </a>
         <address>
           <ul>
@@ -491,8 +493,7 @@
             <div class="newsletter__form">
               <label class="newsletter__label" for="newsletter-mail"></label>
               <input class="newsletter__input" type="email" name="newsletter-mail" id="newsletter-mail" placeholder="E-mail" required="required">
-              <button class="button button--newsletter" type="submit">Zapisz się</button>
-        </div>
+              <button class="button button__newsletter" type="submit">Zapisz się</button>
         </div>
         </div>
       </div>
@@ -539,7 +540,7 @@
               Oświadczam iż akceptuję <a class="rules__link" href="">Regulamin</a> i <a class="rules__policy" href="">Politykę Prywatności.</a>
             </label>
           </div>
-          <button class="button--form button" type="submit">Wyślij</button>
+          <button class="button__form button" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
