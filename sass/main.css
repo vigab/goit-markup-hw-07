@@ -232,6 +232,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: auto;
 }
 .contact__item:first-child {
   margin-right: 50px;
@@ -559,7 +560,7 @@ ul {
   margin-right: auto;
   padding: 40px;
 }
-.form__label:focus-within {
+.form__input:focus + .form__icon {
   fill: var(--main-accent-color);
 }
 .form--margin-top {

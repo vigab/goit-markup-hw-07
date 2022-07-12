@@ -29,7 +29,7 @@
     margin-right: auto;
     padding: 40px;
 
-    &__label:focus-within {
+    &__input:focus + .form__icon {
         fill: var(--main-accent-color);
         }
 
